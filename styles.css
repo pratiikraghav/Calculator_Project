@@ -1,0 +1,57 @@
+.container {
+    background-color: rgb(191, 191, 225);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    justify-content: center;
+}
+.special{
+    color: #aeffae;
+}
+h1{
+    cursor: pointer;
+    width: 90px;
+    background-color: aquamarine;
+}
+.hover :hover{
+    width:41px;
+    height: 36px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.equal
+* {
+    margin: 0;
+}
+
+#calculator {
+      border-radius: 15px;
+      text-align: center    ;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+       padding: 25px;
+    background-color: grey;
+}
+
+input {
+    border: 0px;
+    width:40px;
+    height: 35px;
+    margin: 9px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+.result_display{
+width: 84%;
+border: 1px solid rgb(218, 215, 215);
+box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.equal{
+    width: 38.5%;
+}
